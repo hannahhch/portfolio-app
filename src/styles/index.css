@@ -21,7 +21,6 @@ nav button{
   border:none;
   margin: 0 15px;
   font-size: 17px;
-  border-radius: 6px;
 }
 
 button a{
@@ -31,6 +30,7 @@ button a{
 
 nav button:hover{
   cursor: pointer;
+  border-bottom: solid 1px #56445D;
 }
 
 footer{
@@ -50,4 +50,55 @@ footer{
 .home-wrapper h1{
   color: #56445D;
   font-size: 65px;
+}
+
+.about-wrapper{
+  color: #56445D;
+  margin: 0 auto;
+  width: 25vw;
+  margin-top: 20vh;
+}
+
+.about-wrapper h1{
+  font-size: 55px;
+}
+
+.about-wrapper ul{
+  font-size: 18px;
+}
+
+.photo-wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 15vh;
+}
+
+.photo-frame{
+  border: solid 3px #56445D;
+  height: 25vh;
+  width: 21vw;
+  margin-bottom: 18px;
+  background-color: #cccccc;
+}
+
+.photo-frame:hover{
+  border: solid 3px #8FBC94;
+  cursor: pointer;
+}
+
+.hidden-content{
+  opacity: 0;
+  width: 20.9vw;
+  height: 24.9vh;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+  color: #56445D;
+}
+
+.hidden-content:hover{
+  opacity: 1;
 }

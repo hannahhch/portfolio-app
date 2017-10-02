@@ -4,7 +4,44 @@ import { Link } from 'react-router-dom';
 export default class Portfolio extends Component {
   render(){
     return(
-      <h1>I am a portfolio</h1>
+      <div className = "portfolio-wrapper">
+        <div className = "photo-wrapper">
+          <div className = "photo-frame">
+            <div className = 'hidden-content'>
+              <p className = "coming-soon">Coming Soon!</p>
+            </div>
+          </div>
+          <div className = "photo-frame">
+            <div className = 'hidden-content'>
+              <p className = "coming-soon">Coming Soon!</p>
+            </div>
+          </div>            <div className = "photo-frame">
+            <div className = 'hidden-content'>
+              <p className = "coming-soon">Coming Soon!</p>
+            </div>
+          </div>            <div className = "photo-frame">
+            <div className = 'hidden-content'>
+              <p className = "coming-soon">Coming Soon!</p>
+            </div>
+          </div>            <div className = "photo-frame">
+            <div className = 'hidden-content'>
+              <p className = "coming-soon">Coming Soon!</p>
+            </div>
+          </div>            <div className = "photo-frame">
+            <div className = 'hidden-content'>
+              <p className = "coming-soon">Coming Soon!</p>
+            </div>
+          </div>            <div className = "photo-frame">
+            <div className = 'hidden-content'>
+              <p className = "coming-soon">Coming Soon!</p>
+            </div>
+          </div>            <div className = "photo-frame">
+            <div className = 'hidden-content'>
+              <p className = "coming-soon">Coming Soon!</p>
+            </div>
+          </div>
+        </div>
+      </div>
     )
   }
 }
