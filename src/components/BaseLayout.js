@@ -6,8 +6,9 @@ export default class BaseLayout extends Component {
     return(
       <div>
         <nav>
-          <div><button><Link to="/">SplashPage</Link></button></div>
-          I am a nav bar
+          <div><button><Link to="/">Home</Link></button></div>
+          <div><button><Link to="/about">About</Link></button></div>
+          <div><button><Link to="/portfolio">Portfolio</Link></button></div>
         </nav>
         <header>
           I am a header

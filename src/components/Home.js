@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default class Home extends Component {
   render(){
     return(
-      <h1>HOME</h1>
+      <h1>I am the home page!</h1>
     );
   }
 }
