@@ -1,5 +1,53 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: #548687;
+}
+
+nav{
+  width: 100%;
+  height: 55px;
+  background-color: #C5E99B;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: solid 6px #8FBC94;
+}
+
+nav button{
+  background-color: transparent;
+  border:none;
+  margin: 0 15px;
+  font-size: 17px;
+  border-radius: 6px;
+}
+
+button a{
+  text-decoration: none;
+  color: #56445D;
+}
+
+nav button:hover{
+  cursor: pointer;
+}
+
+footer{
+  width: 100%;
+  height: 55px;
+  background-color: #C5E99B;
+  border-top: solid 6px #8FBC94;
+  position: absolute;
+  bottom: 0;
+}
+
+.home-wrapper{
+  text-align: center;
+  margin-top: 30vh;
+}
+
+.home-wrapper h1{
+  color: #56445D;
+  font-size: 65px;
 }

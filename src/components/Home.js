@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 export default class Home extends Component {
   render(){
     return(
-      <h1>I am the home page!</h1>
+      <div className = "home-wrapper">
+        <h1>Welcome Home.</h1>
+      </div>
     );
   }
 }

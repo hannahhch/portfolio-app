@@ -10,12 +10,8 @@ export default class BaseLayout extends Component {
           <div><button><Link to="/about">About</Link></button></div>
           <div><button><Link to="/portfolio">Portfolio</Link></button></div>
         </nav>
-        <header>
-          I am a header
-        </header>
         {this.props.children}
         <footer>
-          I am a footer
         </footer>
       </div>
     )

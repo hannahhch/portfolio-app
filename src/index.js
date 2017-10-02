@@ -17,7 +17,6 @@ ReactDOM.render(
         <Route path = "/about" component={About}/>
         <Route path = "/portfolio" component={Portfolio}/>
         <Route path = "/" component={Home} />
-
       </Switch>
     </BaseLayout>
   </BrowserRouter>
