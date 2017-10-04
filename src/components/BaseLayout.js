@@ -9,6 +9,9 @@ export default class BaseLayout extends Component {
           <div><button><Link to="/">Home</Link></button></div>
           <div><button><Link to="/about">About</Link></button></div>
           <div><button><Link to="/portfolio">Portfolio</Link></button></div>
+          <div><button><Link to="/contacts">Contacts</Link></button></div>
+          <div><button><Link to="/references">References</Link></button></div>
+
         </nav>
         {this.props.children}
         <footer>

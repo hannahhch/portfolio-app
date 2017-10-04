@@ -48,23 +48,33 @@ footer{
 }
 
 .home-wrapper h1{
-  color: #56445D;
+  color: #C5E99B;
   font-size: 65px;
+
 }
 
-.about-wrapper{
-  color: #56445D;
+.about-wrapper, .contacts-wrapper, .references-wrapper{
+  color: #C5E99B;
   margin: 0 auto;
   width: 25vw;
   margin-top: 20vh;
 }
 
-.about-wrapper h1{
+.references-wrapper{
+  margin-top: 10vh;
+}
+
+.about-wrapper h1, .contacts-wrapper h1, .references-wrapper h1{
   font-size: 55px;
 }
 
-.about-wrapper ul{
+.about-wrapper ul, .contacts-wrapper ul, .references-wrapper ul{
   font-size: 18px;
+}
+
+.contacts-wrapper li:hover{
+  cursor: pointer;
+  color: #56445D;
 }
 
 .photo-wrapper{
